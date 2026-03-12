@@ -112,11 +112,13 @@ function animacja() {
         if (j.y > powietrzeHeight) {
             j.element.remove();
             jajkaSpada.splice(index, 1);
-            zycia--;
-            aktualizujZycia();
-            if (zycia <= 0) {
-                alert('Koniec gry! Twój wynik: ' + wynik);
-                location.reload();
+            if (!j.poisoned) {
+                zycia--;
+                aktualizujZycia();
+                if (zycia <= 0) {
+                    alert('Koniec gry! Twój wynik: ' + wynik);
+                    location.reload();
+                }
             }
         }
     });
