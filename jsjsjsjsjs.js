@@ -86,7 +86,7 @@ function aktualizujZycia() {
 
 function animacja() {
     // szybkość poruszania zająca
-    const szybkosc = 10;
+    const szybkosc = 20;
     // przy wciśnięciu strzałek zmieniamy też kierunek zająca
     if (keysPressed['ArrowLeft']) {
         pozycja -= szybkosc;
@@ -131,3 +131,4 @@ function animacja() {
 setInterval(generujJajko, 1000);
 
 animacja();
+
