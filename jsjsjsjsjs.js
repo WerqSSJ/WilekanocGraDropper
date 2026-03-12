@@ -133,4 +133,3 @@ function animacja() {
 setInterval(generujJajko, 1000);
 
 animacja();
-
