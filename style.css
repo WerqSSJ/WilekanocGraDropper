@@ -13,7 +13,7 @@ body{
     grid-row: 1 / 3;
     position: relative;
     overflow: hidden;
-    width:500px;
+    
 }
 .wynik{
     position: absolute;
@@ -55,4 +55,5 @@ body{
     transform: scaleX(1);
 
 }
+
 
